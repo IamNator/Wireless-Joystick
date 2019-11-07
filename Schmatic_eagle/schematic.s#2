@@ -7014,6 +7014,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="ANT1" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="ANTENNA" device="" package3d_urn="urn:adsk.eagle:package:12928/1"/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7069,6 +7072,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="ANT1" gate="A" x="314.96" y="116.84" smashed="yes">
 <attribute name="NAME" x="312.42" y="118.11" size="1.778" layer="95"/>
 <attribute name="VALUE" x="317.5" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="289.56" y="114.3" smashed="yes">
+<attribute name="VALUE" x="287.655" y="111.125" size="1.778" layer="96"/>
+</instance>
+<instance part="P+4" gate="VCC" x="289.56" y="132.08" smashed="yes">
+<attribute name="VALUE" x="287.02" y="129.54" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C2" gate="G$1" x="289.56" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="292.481" y="122.936" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="295.021" y="125.476" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -7132,6 +7145,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="M1" gate="G$1" pin="VCC"/>
 <wire x1="269.24" y1="93.98" x2="271.78" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<wire x1="289.56" y1="127" x2="289.56" y2="129.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -7164,6 +7182,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="M1" gate="G$1" pin="GND"/>
 <wire x1="264.16" y1="111.76" x2="264.16" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="91.44" x2="271.78" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="289.56" y1="116.84" x2="289.56" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7294,6 +7317,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="IC2" gate="G$1" pin="A1"/>
 <wire x1="195.58" y1="106.68" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="104.14" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="(TOSC1)PC6"/>
+<pinref part="IC2" gate="G$1" pin="!TE"/>
+<wire x1="185.42" y1="109.22" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -7064,7 +7064,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="VALUE" x="224.79" y="66.802" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+3" gate="VCC" x="269.24" y="106.68" smashed="yes">
-<attribute name="VALUE" x="266.7" y="104.14" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="274.32" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="264.16" y="114.3" smashed="yes" rot="R180">
 <attribute name="VALUE" x="266.065" y="117.475" size="1.778" layer="96" rot="R180"/>
