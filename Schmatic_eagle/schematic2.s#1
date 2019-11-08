@@ -13,7 +13,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
@@ -9521,11 +9521,11 @@ RJ45 Jack connectors&lt;br&gt;
 <parts>
 <part name="IC2" library="micro-motorola" library_urn="urn:adsk.eagle:library:289" deviceset="MC145027" device="DW" package3d_urn="urn:adsk.eagle:package:19965/1"/>
 <part name="IC1" library="atmel" library_urn="urn:adsk.eagle:library:105" deviceset="MEGA16" device="-A" package3d_urn="urn:adsk.eagle:package:4319/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="01005" package3d_urn="urn:adsk.eagle:package:26133/2" value="10k"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470pF"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="910pF"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="01005" package3d_urn="urn:adsk.eagle:package:26133/2" value="100k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="M1" library="diy-modules" deviceset="WIRELESS-XY-MK-5V" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>

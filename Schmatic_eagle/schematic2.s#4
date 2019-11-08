@@ -9386,6 +9386,14 @@ www.radiohm.com</description>
 <junction x="20.32" y="104.14"/>
 </segment>
 </net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="VT"/>
+<wire x1="132.08" y1="78.74" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="(ADC4)PA4"/>
+<wire x1="132.08" y1="96.52" x2="81.28" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
