@@ -56,6 +56,8 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Hidden" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -8557,6 +8559,279 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="diy-modules">
+<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
+The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
+&lt;br&gt;
+The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;
+&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
+&lt;/center&gt;</description>
+<packages>
+<package name="WIRELESS-XY-MK-5V">
+<description>&lt;b&gt;RF Wireless XY-MK-5V Receiver&lt;/b&gt;</description>
+<wire x1="-15.24" y1="7.112" x2="15.24" y2="7.112" width="0.127" layer="21"/>
+<wire x1="15.24" y1="7.112" x2="15.24" y2="-6.604" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-6.604" x2="-15.24" y2="-6.604" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-6.604" x2="-15.24" y2="7.112" width="0.127" layer="21"/>
+<pad name="1" x="11.43" y="-5.08" drill="1" shape="square"/>
+<pad name="2" x="8.89" y="-5.08" drill="1"/>
+<pad name="3" x="6.35" y="-5.08" drill="1"/>
+<pad name="4" x="3.81" y="-5.08" drill="1"/>
+<pad name="ANT" x="-13.335" y="-5.08" drill="1"/>
+<wire x1="-14.605" y1="-4.445" x2="-13.97" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-3.81" x2="-12.7" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-3.81" x2="-12.065" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-12.065" y1="-4.445" x2="-12.065" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-12.065" y1="-5.715" x2="-12.7" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="-6.35" x2="-13.97" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-6.35" x2="-14.605" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-14.605" y1="-5.715" x2="-14.605" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-4.445" x2="3.175" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-3.81" x2="4.445" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-3.81" x2="5.08" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-4.445" x2="5.715" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-3.81" x2="6.985" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="6.985" y1="-3.81" x2="7.62" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-5.715" x2="6.985" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="6.985" y1="-6.35" x2="5.715" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-6.35" x2="5.08" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.715" x2="4.445" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-6.35" x2="3.175" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-6.35" x2="2.54" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-5.715" x2="2.54" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-4.445" x2="8.255" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="8.255" y1="-3.81" x2="9.525" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="9.525" y1="-3.81" x2="10.16" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-5.715" x2="9.525" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="9.525" y1="-6.35" x2="8.255" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="8.255" y1="-6.35" x2="7.62" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-4.445" x2="10.795" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="10.795" y1="-3.81" x2="12.065" y2="-3.81" width="0.127" layer="21"/>
+<wire x1="12.065" y1="-3.81" x2="12.7" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-4.445" x2="12.7" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-5.715" x2="12.065" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="12.065" y1="-6.35" x2="10.795" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="10.795" y1="-6.35" x2="10.16" y2="-5.715" width="0.127" layer="21"/>
+<text x="0" y="8.255" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="WIRELESS-XY-MK-5V#V">
+<description>&lt;b&gt;RF Wireless XY-MK-5V Receiver&lt;/b&gt; vertically mounted</description>
+<wire x1="-15.24" y1="5.08" x2="-13.97" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="5.08" x2="-12.7" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="5.08" x2="3.175" y2="5.08" width="0.127" layer="21"/>
+<wire x1="3.175" y1="5.08" x2="12.065" y2="5.08" width="0.127" layer="21"/>
+<wire x1="12.065" y1="5.08" x2="15.24" y2="5.08" width="0.127" layer="21"/>
+<wire x1="15.24" y1="5.08" x2="15.24" y2="4.064" width="0.127" layer="21"/>
+<wire x1="15.24" y1="4.064" x2="12.7" y2="4.064" width="0.127" layer="21"/>
+<wire x1="12.7" y1="4.064" x2="2.54" y2="4.064" width="0.127" layer="21"/>
+<wire x1="2.54" y1="4.064" x2="-1.27" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="4.064" x2="-6.35" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="4.064" x2="-12.065" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-12.065" y1="4.064" x2="-14.605" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-14.605" y1="4.064" x2="-15.24" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="4.064" x2="-15.24" y2="5.08" width="0.127" layer="21"/>
+<pad name="1" x="11.43" y="0" drill="1" shape="square"/>
+<pad name="2" x="8.89" y="0" drill="1"/>
+<pad name="3" x="6.35" y="0" drill="1"/>
+<pad name="4" x="3.81" y="0" drill="1"/>
+<pad name="ANT" x="-13.335" y="0" drill="1"/>
+<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.175" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="12.7" y1="4.064" x2="12.7" y2="1.524" width="0.127" layer="21"/>
+<wire x1="12.7" y1="1.524" x2="11.811" y2="1.524" width="0.127" layer="21"/>
+<wire x1="11.811" y1="1.524" x2="11.049" y2="1.524" width="0.127" layer="21"/>
+<wire x1="11.049" y1="1.524" x2="9.271" y2="1.524" width="0.127" layer="21"/>
+<wire x1="9.271" y1="1.524" x2="8.509" y2="1.524" width="0.127" layer="21"/>
+<wire x1="8.509" y1="1.524" x2="6.731" y2="1.524" width="0.127" layer="21"/>
+<wire x1="6.731" y1="1.524" x2="5.969" y2="1.524" width="0.127" layer="21"/>
+<wire x1="5.969" y1="1.524" x2="4.191" y2="1.524" width="0.127" layer="21"/>
+<wire x1="4.191" y1="1.524" x2="3.429" y2="1.524" width="0.127" layer="21"/>
+<wire x1="3.429" y1="1.524" x2="2.54" y2="1.524" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.524" x2="2.54" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-12.065" y1="4.064" x2="-12.065" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-12.065" y1="1.524" x2="-12.954" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-12.954" y1="1.524" x2="-13.716" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-13.716" y1="1.524" x2="-14.605" y2="1.524" width="0.127" layer="21"/>
+<wire x1="-14.605" y1="1.524" x2="-14.605" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-12.954" y1="1.524" x2="-12.954" y2="0.889" width="0.127" layer="21"/>
+<wire x1="-13.716" y1="1.524" x2="-13.716" y2="0.889" width="0.127" layer="21"/>
+<wire x1="3.429" y1="1.524" x2="3.429" y2="0.889" width="0.127" layer="21"/>
+<wire x1="4.191" y1="1.524" x2="4.191" y2="0.889" width="0.127" layer="21"/>
+<wire x1="5.969" y1="1.524" x2="5.969" y2="0.889" width="0.127" layer="21"/>
+<wire x1="8.509" y1="1.524" x2="8.509" y2="0.889" width="0.127" layer="21"/>
+<wire x1="11.049" y1="1.524" x2="11.049" y2="0.889" width="0.127" layer="21"/>
+<wire x1="6.731" y1="1.524" x2="6.731" y2="0.889" width="0.127" layer="21"/>
+<wire x1="9.271" y1="1.524" x2="9.271" y2="0.889" width="0.127" layer="21"/>
+<wire x1="11.811" y1="1.524" x2="11.811" y2="0.889" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-0.762" x2="5.715" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-1.905" x2="-1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="4.064" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="4.064" x2="-6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-1.27" x2="-12.065" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-12.065" y1="-1.27" x2="-12.065" y2="1.524" width="0.127" layer="21"/>
+<wire x1="12.065" y1="5.08" x2="12.065" y2="6.985" width="0.127" layer="21"/>
+<wire x1="12.065" y1="6.985" x2="3.175" y2="6.985" width="0.127" layer="21"/>
+<wire x1="3.175" y1="6.985" x2="3.175" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="6.985" x2="-13.97" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="6.985" x2="-13.97" y2="5.08" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WIRELESS-XY-MK-5V">
+<description>&lt;b&gt;RF Wireless XY-MK-5V Receiver&lt;/b&gt;</description>
+<pin name="GND" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="DATA.1" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="DATA.2" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="ANT" x="15.24" y="-10.16" visible="pin" length="middle" direction="out" rot="R180"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WIRELESS-XY-MK-5V" prefix="M">
+<description>&lt;b&gt;RF Wireless XY-MK-5V Receiver&lt;/b&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/xd+rf+5v-receiver"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;Note:&lt;/b&gt; Sold together with transmitter.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=WIRELESS-XY-MK-5V"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="WIRELESS-XY-MK-5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WIRELESS-XY-MK-5V">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="DATA.1" pad="2"/>
+<connect gate="G$1" pin="DATA.2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-V" package="WIRELESS-XY-MK-5V#V">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$1" pin="DATA.1" pad="2"/>
+<connect gate="G$1" pin="DATA.2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="discrete" urn="urn:adsk.eagle:library:211">
+<description>Discrete devices (Antenna, Arrrester, Thermistor)</description>
+<packages>
+<package name="PAD-01" urn="urn:adsk.eagle:footprint:12919/1" library_version="2">
+<description>&lt;b&gt;PAD&lt;/b&gt;</description>
+<circle x="0" y="0" radius="0.889" width="0.762" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.3208" diameter="2.54" shape="octagon"/>
+<text x="-1.27" y="1.524" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="PAD-01" urn="urn:adsk.eagle:package:12928/1" type="box" library_version="2">
+<description>PAD</description>
+<packageinstances>
+<packageinstance name="PAD-01"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="ANTENNA" urn="urn:adsk.eagle:symbol:12918/1" library_version="2">
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="-5.08" visible="off" length="short" direction="out" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ANTENNA" urn="urn:adsk.eagle:component:12934/2" prefix="ANT" uservalue="yes" library_version="2">
+<description>&lt;b&gt;Antenna&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="ANTENNA" x="0" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="PAD-01">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12928/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="11" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8574,6 +8849,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="910pF"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="01005" package3d_urn="urn:adsk.eagle:package:26133/2" value="100k"/>
+<part name="M1" library="diy-modules" deviceset="WIRELESS-XY-MK-5V" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="ANT1" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="ANTENNA" device="" package3d_urn="urn:adsk.eagle:package:12928/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8606,6 +8885,20 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R2" gate="G$1" x="157.48" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.29" y="52.2986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="163.83" y="51.562" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="M1" gate="G$1" x="139.7" y="-7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="121.92" y="-17.78" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="124.46" y="-17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="106.68" y="-5.08" smashed="yes">
+<attribute name="VALUE" x="104.775" y="-8.255" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="VCC" x="170.18" y="30.48" smashed="yes">
+<attribute name="VALUE" x="167.64" y="27.94" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="ANT1" gate="A" x="182.88" y="30.48" smashed="yes">
+<attribute name="NAME" x="180.34" y="31.75" size="1.778" layer="95"/>
+<attribute name="VALUE" x="185.42" y="25.4" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8716,6 +9009,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="137.16" y="30.48"/>
 <junction x="147.32" y="43.18"/>
 </segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="129.54" y1="7.62" x2="106.68" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="7.62" x2="106.68" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -8726,6 +9025,30 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="147.32" y1="55.88" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
 <junction x="147.32" y="55.88"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="DIN"/>
+<pinref part="M1" gate="G$1" pin="DATA.1"/>
+<wire x1="132.08" y1="58.42" x2="132.08" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="M1" gate="G$1" pin="VCC"/>
+<wire x1="137.16" y1="7.62" x2="137.16" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="20.32" x2="170.18" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<wire x1="170.18" y1="20.32" x2="170.18" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="M1" gate="G$1" pin="ANT"/>
+<pinref part="ANT1" gate="A" pin="1"/>
+<wire x1="149.86" y1="7.62" x2="182.88" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="7.62" x2="182.88" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
