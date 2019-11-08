@@ -1994,11 +1994,11 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="32"/>
 <contactref element="U$1" pad="5"/>
 <wire x1="71.43" y1="35.22" x2="71.4" y2="35.25" width="0.1524" layer="16"/>
-<wire x1="71.4" y1="35.25" x2="67.7628875" y2="35.25" width="0.1524" layer="16"/>
-<wire x1="67.7628875" y1="35.25" x2="61.2682" y2="41.7446875" width="0.1524" layer="16"/>
-<wire x1="61.2682" y1="41.7446875" x2="61.2682" y2="45.12635" width="0.1524" layer="16"/>
 <wire x1="61.2682" y1="45.12635" x2="62.14185" y2="46" width="0.1524" layer="16"/>
 <wire x1="62.14185" y1="46" x2="63.155" y2="46" width="0.1524" layer="16"/>
+<wire x1="71.4" y1="35.25" x2="67.76353125" y2="35.25" width="0.1524" layer="16"/>
+<wire x1="67.76353125" y1="35.25" x2="61.2682" y2="41.74533125" width="0.1524" layer="16"/>
+<wire x1="61.2682" y1="41.74533125" x2="61.2682" y2="45.12635" width="0.1524" layer="16"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$1" pad="2"/>
@@ -2058,6 +2058,16 @@ design rules under a new name.</description>
 <wire x1="72.5424" y1="36.25" x2="67.1945875" y2="36.25" width="0.1524" layer="16"/>
 <wire x1="67.1945875" y1="36.25" x2="62.5764" y2="40.8681875" width="0.1524" layer="16"/>
 <wire x1="62.5764" y1="40.8681875" x2="62.5764" y2="43.2014" width="0.1524" layer="16"/>
+<polygon width="0.1524" layer="1" rank="6">
+<vertex x="55.2" y="78"/>
+<vertex x="55.2" y="32.4"/>
+<vertex x="62.4" y="25.2"/>
+<vertex x="63.6" y="24"/>
+<vertex x="93.6" y="24"/>
+<vertex x="97.2" y="27.6"/>
+<vertex x="97.2" y="62.4"/>
+<vertex x="81.6" y="78"/>
+</polygon>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="1"/>
@@ -2127,6 +2137,17 @@ design rules under a new name.</description>
 <wire x1="63.6014" y1="41.1014" x2="63.6014" y2="40.27424375" width="0.1524" layer="16"/>
 <wire x1="63.6014" y1="40.27424375" x2="63.87564375" y2="40" width="0.1524" layer="16"/>
 <wire x1="63.87564375" y1="40" x2="65.25" y2="40" width="0.1524" layer="16"/>
+<polygon width="0.2" layer="16" rank="6">
+<vertex x="55.2" y="79.2"/>
+<vertex x="55.2" y="10.8"/>
+<vertex x="63.6" y="2.4"/>
+<vertex x="91.2" y="2.4"/>
+<vertex x="96" y="7.2"/>
+<vertex x="96" y="39.6"/>
+<vertex x="98.4" y="42"/>
+<vertex x="98.4" y="78"/>
+<vertex x="97.2" y="79.2"/>
+</polygon>
 </signal>
 <signal name="N$4">
 <contactref element="R1" pad="1"/>

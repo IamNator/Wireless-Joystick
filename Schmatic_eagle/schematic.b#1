@@ -1867,7 +1867,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="ANT1" library="discrete" library_urn="urn:adsk.eagle:library:211" package="PAD-01" package3d_urn="urn:adsk.eagle:package:12928/1" value="" x="55.93" y="76.56" smashed="yes">
-<attribute name="NAME" x="54.66" y="79.608" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="57.06" y="78.408" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="11" x="108" y="15.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="54.66" y="78.084" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -2043,9 +2043,6 @@ design rules under a new name.</description>
 <wire x1="66" y1="56.46" x2="66" y2="48.25" width="0.1524" layer="1"/>
 <wire x1="79.05" y1="35.22" x2="79.03" y2="35.22" width="0.1524" layer="1"/>
 <wire x1="79.03" y1="35.22" x2="74.5" y2="39.75" width="0.1524" layer="1"/>
-<wire x1="72.5424" y1="36.25" x2="67.19394375" y2="36.25" width="0.1524" layer="16"/>
-<wire x1="67.19394375" y1="36.25" x2="62.5764" y2="40.86754375" width="0.1524" layer="16"/>
-<wire x1="62.5764" y1="40.86754375" x2="62.5764" y2="43.2014" width="0.1524" layer="16"/>
 <wire x1="62.5764" y1="43.2014" x2="62.875" y2="43.5" width="0.1524" layer="16"/>
 <wire x1="72.5424" y1="36.25" x2="72.5424" y2="34.94279375" width="0.1524" layer="16"/>
 <wire x1="72.5424" y1="34.94279375" x2="71.83700625" y2="34.2374" width="0.1524" layer="16"/>
@@ -2058,6 +2055,9 @@ design rules under a new name.</description>
 <wire x1="71.2787" y1="56.4713" x2="86.4713" y2="56.4713" width="0.1524" layer="16"/>
 <wire x1="91.85" y1="60.63" x2="88.72" y2="57.5" width="0.1524" layer="1"/>
 <wire x1="88.72" y1="57.5" x2="87.55" y2="57.5" width="0.1524" layer="1"/>
+<wire x1="72.5424" y1="36.25" x2="67.1945875" y2="36.25" width="0.1524" layer="16"/>
+<wire x1="67.1945875" y1="36.25" x2="62.5764" y2="40.8681875" width="0.1524" layer="16"/>
+<wire x1="62.5764" y1="40.8681875" x2="62.5764" y2="43.2014" width="0.1524" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="1"/>
@@ -2180,14 +2180,13 @@ design rules under a new name.</description>
 <via x="86.4" y="55.2" extent="1-16" drill="0.35"/>
 <wire x1="86.4" y1="55.2" x2="86.4" y2="53" width="0.1524" layer="1"/>
 <wire x1="74.27" y1="53.3" x2="74.77" y2="52.8" width="0.1524" layer="1"/>
-<wire x1="80.4" y1="50.4" x2="81.9" y2="50.4" width="0.1524" layer="1"/>
-<wire x1="81.9" y1="50.4" x2="82.5" y2="51" width="0.1524" layer="1"/>
 <wire x1="74.77" y1="52.8" x2="78" y2="52.8" width="0.1524" layer="1"/>
-<wire x1="78" y1="52.8" x2="80.4" y2="50.4" width="0.1524" layer="1"/>
 <wire x1="96.95" y1="53.14" x2="96.86" y2="53.14" width="0.1524" layer="1"/>
 <wire x1="96.86" y1="53.14" x2="93" y2="57" width="0.1524" layer="1"/>
 <wire x1="93" y1="57" x2="91.2" y2="55.2" width="0.1524" layer="16"/>
 <wire x1="91.2" y1="55.2" x2="86.4" y2="55.2" width="0.1524" layer="16"/>
+<wire x1="78" y1="52.8" x2="79.8" y2="51" width="0.1524" layer="1"/>
+<wire x1="79.8" y1="51" x2="82.5" y2="51" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="M1" pad="3"/>
@@ -2278,14 +2277,13 @@ design rules under a new name.</description>
 <signal name="N$18">
 <contactref element="IC2" pad="1"/>
 <contactref element="IC1" pad="42"/>
-<wire x1="82.875" y1="48.375" x2="79.625" y2="48.375" width="0.1524" layer="1"/>
-<wire x1="83.375" y1="48.875" x2="82.875" y2="48.375" width="0.1524" layer="1"/>
-<wire x1="83.375" y1="48.875" x2="83.4" y2="48.995" width="0.1524" layer="1"/>
 <via x="79.625" y="48.375" extent="1-16" drill="0.35"/>
 <wire x1="68" y1="47.345" x2="67.98" y2="47.325" width="0.1524" layer="16"/>
 <wire x1="79.625" y1="48.375" x2="68.75064375" y2="48.375" width="0.1524" layer="16"/>
 <wire x1="68.75064375" y1="48.375" x2="68" y2="47.62435625" width="0.1524" layer="16"/>
 <wire x1="68" y1="47.62435625" x2="68" y2="47.345" width="0.1524" layer="16"/>
+<wire x1="83.4" y1="48.995" x2="82.78" y2="48.375" width="0.1524" layer="1"/>
+<wire x1="82.78" y1="48.375" x2="79.625" y2="48.375" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$19">
 <contactref element="IC2" pad="2"/>
